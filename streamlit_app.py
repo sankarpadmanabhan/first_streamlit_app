@@ -46,6 +46,6 @@ streamlit.header("tHE FRUIT LOAD LIST CONTAINS:")
 streamlit.dataframe(my_data_row)
 streamlit.write('Thanks for adding', ' from streamlit');
 
-streamlite.write('Thanks for ading', addd_my_fruit)
+#streamlite.write('Thanks for ading', addd_my_fruit)
 my_cur.execute("insert into fruit_load_list_vaues ('from streamlit')")
                  
