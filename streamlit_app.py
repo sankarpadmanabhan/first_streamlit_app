@@ -43,7 +43,8 @@ my_cur = my_cnx.cursor()
 my_cur.execute("SELECT * from fruit_load_list")
 my_data_row = my_cur.fetchall()
 streamlit.header("tHE FRUIT LOAD LIST CONTAINS:")
-streamlit.dataframe(my_data_row)streamlit.write('Thanks for adding', add_my_fruit);
+streamlit.dataframe(my_data_row)
+streamlit.write('Thanks for adding', add_my_fruit);
 
 streamlite.write('Thanks for adding', addd_my_fruit
 my_cur.execute("insert into fruit_load_list_vaues ('from streamlit')")
