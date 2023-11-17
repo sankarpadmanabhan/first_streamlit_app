@@ -22,7 +22,7 @@ streamlit.dataframe(fruits_to_show)
 
 
 #New Section to display fruityvice api response
-streamlit.text('Fruityvice Fruit Advice!')
+streamlit.header('Fruityvice Fruit Advice!')
 
 
 import requests
